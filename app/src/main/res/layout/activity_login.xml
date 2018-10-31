@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_60"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write_phone"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/size_15"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_national_flag"
+            android:layout_width="@dimen/length_42"
+            android:layout_height="@dimen/length_28"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_25"
+            android:src="@mipmap/national_flag" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_5"
+            android:layout_marginRight="@dimen/length_25"
+            android:layout_toRightOf="@+id/iv_national_flag"
+            android:background="@drawable/login_edit_style">
+
+            <TextView
+                android:id="@+id/tv_phone_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/length_3"
+                android:text="+86"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/size_16" />
+
+            <EditText
+                android:id="@+id/login_edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_5"
+                android:layout_toRightOf="@+id/tv_phone_header"
+                android:background="@null"
+                android:digits="1234567890"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:padding="@dimen/length_3"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/size_16" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_35">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_25"
+            android:layout_marginRight="@dimen/length_25"
+            android:gravity="center"
+            android:text="@string/login_details"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/size_12" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_25">
+
+        <Button
+            android:id="@+id/login_bt_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_25"
+            android:layout_marginRight="@dimen/length_25"
+            android:background="@drawable/login_next_style"
+            android:text="@string/login_next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_13" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/dialog_bg">
+
+        <ImageView
+            android:id="@+id/iv_work_icon"
+            android:layout_width="@dimen/length_404"
+            android:layout_height="@dimen/length_215"
+            android:layout_marginLeft="@dimen/length_40"
+            android:layout_marginRight="@dimen/length_40"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/length_20"
+            android:src="@mipmap/work_icon" />
+
+        <TextView
+            android:id="@+id/tv_work_details"
+            android:layout_below="@id/iv_work_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/work_dialog"
+            android:gravity="center"
+            android:textSize="@dimen/size_15"
+            android:textColor="@color/center_grey"
+            />
+        <Button
+            android:id="@+id/bt_work_sure"
+            android:layout_below="@+id/tv_work_details"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/length_30"
+            android:layout_marginBottom="@dimen/length_30"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginRight="@dimen/length_20"
+            android:text="@string/sure"
+            android:textSize="@dimen/size_16"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/send_again_style"
+            />
+    </RelativeLayout>
+</RelativeLayout>

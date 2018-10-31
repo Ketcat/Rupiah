@@ -1,0 +1,386 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.fragment.MineFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_140"
+        android:background="@mipmap/mine_title">
+
+        <TextView
+            android:id="@+id/mine_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/length_29"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mine_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/length_48"
+            android:layout_marginTop="@dimen/length_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_16" />
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_coupons"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_mine_coupons_number"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="@dimen/length_8"-->
+                <!--android:text="0"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="@dimen/size_22" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_mine_coupons_number"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginBottom="@dimen/length_8"-->
+                <!--android:text="@string/coupons"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="@dimen/size_15" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_friends"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_friends_number"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="@dimen/length_8"-->
+                <!--android:text="0"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="@dimen/size_22" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_friends_number"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginBottom="@dimen/length_10"-->
+                <!--android:text="@string/friends"-->
+                <!--android:textColor="@color/dark_grey"-->
+                <!--android:textSize="@dimen/size_15" />-->
+        <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_8"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/mine_user"
+            android:layout_width="@dimen/length_30"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/user_icon" />
+
+        <TextView
+            android:id="@+id/mine_user_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_3"
+            android:layout_toRightOf="@+id/mine_user"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/size_16" />
+
+        <Button
+            android:id="@+id/mine_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/length_30"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:background="@drawable/login_next_style"
+            android:text="@string/mine_exit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_13" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_8"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_count_integral"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/integral" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_count_integral"
+            android:text="@string/integral"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <TextView
+            android:id="@+id/integral_value"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/green"
+            android:textSize="@dimen/size_15"
+            android:text="0"
+            android:layout_marginRight="@dimen/length_15"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_loan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_mine_loan"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/mine_loan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_loan"
+            android:text="@string/mine_loan"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1"
+        android:layout_marginLeft="@dimen/length_45"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:id="@+id/rl_help_center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_45">
+
+        <ImageView
+            android:id="@+id/iv_mine_help"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/help_center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_help"
+            android:text="@string/help_center"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_mine_about_us"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/about_us" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_about_us"
+            android:text="@string/about_us"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1"
+        android:layout_marginLeft="@dimen/length_45"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:id="@+id/rl_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_mine_privacy"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/privacy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_privacy"
+            android:text="@string/privacy"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_mine_contact_us"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/contact_us" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_contact_us"
+            android:text="@string/contact_us"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1"
+        android:layout_marginLeft="@dimen/length_45"
+        android:background="@color/line_color" />
+
+    <RelativeLayout
+        android:id="@+id/rl_online"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50">
+
+        <ImageView
+            android:id="@+id/iv_mine_online"
+            android:layout_width="@dimen/length_33"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:src="@mipmap/online" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_mine_online"
+            android:text="@string/online"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_15" />
+
+        <ImageView
+            android:layout_width="@dimen/length_15"
+            android:layout_height="@dimen/length_25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/go_in" />
+    </RelativeLayout>
+</LinearLayout>

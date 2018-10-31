@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/length_50"
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginRight="@dimen/length_20"
+            android:background="@color/list_bg">
+
+            <TextView
+                android:id="@+id/tv_pay_item_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/length_20"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/size_16" />
+
+            <ImageView
+                android:id="@+id/iv_down"
+                android:layout_width="@dimen/length_22"
+                android:layout_height="@dimen/length_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/length_10"
+                android:src="@mipmap/check_down" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pay_gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_20"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Status pembayaran:"
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Tabel angsuran："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Jenis mata uang："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Metode pembayaran："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Nomor ponsel："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Bank Pembayaran："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/length_20"
+                android:layout_marginTop="@dimen/length_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_weight="1"
+                    android:text="Kode pembayaran："
+                    android:textSize="@dimen/size_13" />
+
+                <TextView
+                    android:id="@+id/tvValue7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:layout_weight="1"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/size_13" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

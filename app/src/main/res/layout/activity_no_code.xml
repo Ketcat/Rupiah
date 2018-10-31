@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.NoCodeActivity">
+
+    <TextView
+        android:id="@+id/verify_code_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_25"
+        android:layout_marginTop="@dimen/length_50"
+        android:text="@string/if_no_code"
+        android:textColor="@color/center_grey"
+        android:textSize="@dimen/size_15"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_20"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="@dimen/length_24"
+            android:layout_height="@dimen/length_36"
+            android:layout_marginLeft="@dimen/length_20"
+            android:src="@mipmap/phone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_toRightOf="@+id/iv_phone">
+
+            <TextView
+                android:id="@+id/tv_phone_number_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sure_number"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/size_15" />
+
+            <TextView
+                android:id="@+id/no_code_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_phone_number_ok"
+                android:text="+8613522785689"
+                android:textColor="@color/green"
+                android:textSize="@dimen/size_15" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_10">
+
+        <ImageView
+            android:id="@+id/iv_messages"
+            android:layout_width="@dimen/length_32"
+            android:layout_height="@dimen/length_27"
+            android:layout_marginLeft="@dimen/length_20"
+            android:src="@mipmap/messages" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_5"
+            android:layout_toRightOf="@+id/iv_messages"
+            android:text="@string/check_messages"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/size_15" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_25">
+
+        <Button
+            android:id="@+id/send_again_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_25"
+            android:layout_marginRight="@dimen/length_25"
+            android:background="@drawable/send_again_style"
+            android:text="@string/send_again"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_16" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/other_methods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_25"
+        android:layout_marginTop="@dimen/length_35"
+        android:text="@string/other_get_code"
+        android:textColor="@color/center_grey"
+        android:textSize="@dimen/size_15"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/facebook_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_25"
+        android:layout_marginRight="@dimen/length_25"
+        android:layout_marginTop="@dimen/length_25"
+        android:background="@color/green">
+
+        <ImageView
+            android:id="@+id/facebook_iv"
+            android:layout_width="@dimen/length_39"
+            android:layout_height="@dimen/length_39"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_25"
+            android:src="@mipmap/facebook" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/length_15"
+            android:layout_marginLeft="@dimen/length_15"
+            android:layout_marginTop="@dimen/length_15"
+            android:layout_toRightOf="@+id/facebook_iv">
+
+            <TextView
+                android:id="@+id/facebook_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/facebook_tv"
+                android:text="@string/send_facebook"
+                android:textColor="@color/light_white"
+                android:textSize="@dimen/size_14" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/telephone_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_25"
+        android:layout_marginRight="@dimen/length_25"
+        android:layout_marginTop="@dimen/length_10"
+        android:background="@color/green">
+
+        <ImageView
+            android:id="@+id/telephone_iv"
+            android:layout_width="@dimen/length_34"
+            android:layout_height="@dimen/length_37"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/length_25"
+            android:src="@mipmap/telephone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/length_15"
+            android:layout_marginLeft="@dimen/length_15"
+            android:layout_marginTop="@dimen/length_15"
+            android:layout_toRightOf="@+id/telephone_iv">
+
+            <TextView
+                android:id="@+id/telephone_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/telephone_tv"
+                android:text="@string/call_get_code"
+                android:textColor="@color/light_white"
+                android:textSize="@dimen/size_14" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_60"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/verify_code_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verify_code"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/size_15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verify_code_tv"
+            android:layout_marginLeft="@dimen/length_12"
+            android:layout_marginTop="@dimen/length_10"
+            android:text="+8613522785689"
+            android:textColor="@color/green"
+            android:textSize="@dimen/size_15" />
+    </RelativeLayout>
+
+    <com.ptyl.uang.flash.view.IdentifyingCodeView
+        android:id="@+id/view_icv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/length_10"
+        android:layout_marginRight="@dimen/length_10"
+        android:layout_marginTop="@dimen/length_10"
+        app:icv_et_bg_focus="@drawable/shape_icv_et_bg_focus"
+        app:icv_et_bg_normal="@drawable/shape_icv_et_bg_normal"
+        app:icv_et_divider_drawable="@drawable/shape_divider_identifying"
+        app:icv_et_number="6"
+        app:icv_et_text_color="#000000"
+        app:icv_et_width="45dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_15">
+
+        <Button
+            android:id="@+id/register_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_25"
+            android:layout_marginRight="@dimen/length_25"
+            android:background="@drawable/login_next_style"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_13" />
+
+        <TextView
+            android:id="@+id/tv_no_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_bt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/length_13"
+            android:layout_marginTop="@dimen/length_10"
+            android:text="@string/no_git_code"
+            android:textColor="@color/green"
+            android:textSize="@dimen/size_15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/length_10"
+            android:layout_below="@id/tv_no_code"
+            android:layout_marginLeft="@dimen/length_25"
+            android:layout_marginRight="@dimen/length_25"
+            android:text="@string/register_details"
+            android:textColor="@color/light_grey"
+            android:gravity="center"
+            android:textSize="@dimen/size_12" />
+    </RelativeLayout>
+</LinearLayout>

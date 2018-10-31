@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.OpinionActivity">
+    <include layout="@layout/activity_title"/>
+    <EditText
+        android:id="@+id/et_opinion"
+        android:layout_marginLeft="@dimen/length_20"
+        android:layout_marginTop="@dimen/length_20"
+        android:layout_marginRight="@dimen/length_20"
+        android:layout_marginBottom="@dimen/length_20"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/size_14"
+        android:gravity="left|top"
+        android:background="@color/edit_bg"
+        android:layout_height="@dimen/length_150"
+        android:textColorHint="@color/hint_color"
+        android:padding="@dimen/length_10"
+        android:hint="@string/thanks_you"
+        />
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/length_20"
+        android:layout_marginRight="@dimen/length_20"
+        android:layout_marginBottom="@dimen/length_20"
+        android:background="@color/edit_bg"
+        android:hint="@string/you_phone_number"
+        android:textColorHint="@color/hint_color"
+        android:padding="@dimen/length_10"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_20"
+        android:text="@string/submit"
+        android:textSize="@dimen/size_17"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/send_again_style"
+        android:layout_marginLeft="@dimen/length_20"
+        android:layout_marginRight="@dimen/length_20"
+        />
+</LinearLayout>

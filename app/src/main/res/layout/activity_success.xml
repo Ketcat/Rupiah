@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptyl.uang.flash.activity.SuccessActivity">
+
+    <TextView
+        android:id="@+id/tv_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/length_46"
+        android:text="@string/register_success"
+        android:textSize="@dimen/size_20"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_success"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/length_8"
+        android:text="5秒跳转到我的页面"
+        android:textSize="@dimen/size_15"
+        android:textColor="@color/grey_bb" />
+
+    <ImageView
+        android:layout_width="@dimen/length_48"
+        android:layout_height="@dimen/length_48"
+        android:layout_below="@id/tv_timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/length_20"
+        android:src="@mipmap/register_success" />
+</RelativeLayout>

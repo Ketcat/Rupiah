@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_color"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.LoanActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_20"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_15"
+                    android:layout_marginRight="@dimen/length_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/info_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="39dp"
+                        android:layout_marginTop="@dimen/length_20"
+                        android:src="@mipmap/loan_number" />
+
+                    <TextView
+                        android:id="@+id/tv_money_number_loan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_number6"
+                        android:textColor="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:text="@string/loanAmount" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_5"
+                    android:layout_marginRight="@dimen/length_15"
+                    android:layout_weight="1"
+                    android:background="@drawable/info_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="39dp"
+                        android:layout_marginTop="@dimen/length_20"
+                        android:src="@mipmap/loan_time" />
+
+                    <TextView
+                        android:id="@+id/tv_day_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_data7"
+                        android:textColor="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:text="@string/loanPeriod" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10">
+
+                <TextView
+                    android:id="@+id/tv_interest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_15"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_12" />
+
+                <TextView
+                    android:id="@+id/tv_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/length_40"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_12" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_real"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_15"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/size_12" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_20"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paymentAmount"
+                    android:textColor="@color/center_grey"
+                    android:textSize="@dimen/size_15" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/length_10"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_money_loan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/size_20" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bank_name"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/length_50"
+                android:layout_marginLeft="@dimen/length_15"
+                android:layout_marginRight="@dimen/length_15"
+                android:layout_marginTop="@dimen/length_20"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:text="@string/bank_name"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/size_15" />
+
+                <TextView
+                    android:id="@+id/tv_bank_name_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:layout_toRightOf="@+id/tv_bank_name"
+                    android:textSize="@dimen/size_15" />
+
+                <ImageView
+                    android:layout_width="@dimen/length_12"
+                    android:layout_height="@dimen/length_21"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:src="@mipmap/go_in" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/length_50"
+                android:layout_marginLeft="@dimen/length_15"
+                android:layout_marginRight="@dimen/length_15"
+                android:layout_marginTop="@dimen/length_5"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_bank_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:text="@string/bank_code"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/size_15" />
+
+                <EditText
+                    android:id="@+id/et_bank_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_bank_code"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/length_10"
+                    android:textSize="@dimen/size_15" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/length_50"
+                android:layout_marginLeft="@dimen/length_15"
+                android:layout_marginRight="@dimen/length_15"
+                android:layout_marginTop="@dimen/length_5"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_loan_reason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:text="@string/forLoan"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/size_15" />
+
+                <EditText
+                    android:id="@+id/et_loan_reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_loan_reason"
+                    android:background="@null"
+                    android:paddingLeft="@dimen/length_10"
+                    android:textSize="@dimen/size_15" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_coupon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/length_50"
+                android:layout_marginLeft="@dimen/length_15"
+                android:layout_marginRight="@dimen/length_15"
+                android:layout_marginTop="@dimen/length_5"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_coupon_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:text="@string/coupon"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/size_15" />
+
+                <TextView
+                    android:id="@+id/tv_bank_coupon_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:layout_toRightOf="@+id/tv_coupon_name"
+                    android:textSize="@dimen/size_15" />
+
+                <ImageView
+                    android:layout_width="@dimen/length_12"
+                    android:layout_height="@dimen/length_21"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/length_10"
+                    android:src="@mipmap/go_in" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_20"
+                android:layout_marginTop="@dimen/length_10">
+
+                <CheckBox
+                    android:id="@+id/loan_check"
+                    style="@style/MyCheckBox"
+                    android:layout_width="@dimen/length_26"
+                    android:layout_height="@dimen/length_26" />
+
+                <TextView
+                    android:id="@+id/tv_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/length_10"
+                    android:layout_toRightOf="@+id/loan_check"
+                    android:text="@string/agree_cash" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_clause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_agree"
+                android:layout_marginLeft="@dimen/length_48"
+                android:text="@string/loanAgreement"
+                android:textColor="@color/green" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/line_color">
+
+                <Button
+                    android:id="@+id/bt_loan_sure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/length_20"
+                    android:layout_marginLeft="@dimen/length_22"
+                    android:layout_marginRight="@dimen/length_22"
+                    android:layout_marginTop="@dimen/length_20"
+                    android:background="@drawable/send_again_style"
+                    android:text="@string/send_identify"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_15" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

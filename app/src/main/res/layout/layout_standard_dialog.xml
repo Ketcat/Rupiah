@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/dialog_bg">
+
+        <TextView
+            android:id="@+id/tv_standard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_16"
+            android:layout_below="@id/iv_personal_face"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/length_20"
+            android:text="@string/standard_case"
+            android:textColor="@color/dark_grey" />
+
+        <ImageView
+            android:id="@+id/iv_identify_photo"
+            android:layout_width="@dimen/length_387"
+            android:layout_height="@dimen/length_210"
+            android:layout_below="@+id/tv_standard_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_marginRight="@dimen/length_10"
+            android:src="@mipmap/submit_identify_up" />
+
+        <TextView
+            android:id="@+id/tv_standard_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_identify_photo"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/size_16"
+            android:text="@string/error_case"
+            android:textColor="@color/dark_grey" />
+
+        <LinearLayout
+            android:id="@+id/ll_standard_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_standard_details"
+            android:layout_marginLeft="@dimen/length_10"
+            android:layout_marginRight="@dimen/length_10"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/length_1"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_error_one"
+                    android:layout_width="@dimen/length_127"
+                    android:layout_height="@dimen/length_76"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/up_error_one" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_error_one"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/error_one"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_11" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/length_1"
+                android:layout_marginLeft="@dimen/length_1"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_error_two"
+                    android:layout_width="@dimen/length_127"
+                    android:layout_height="@dimen/length_76"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/up_error_two" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_error_two"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/error_two"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_11" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_1"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_error_three"
+                    android:layout_width="@dimen/length_127"
+                    android:layout_height="@dimen/length_76"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/up_error_three" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_error_three"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/error_three"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_11" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_standard_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_standard_error"
+            android:layout_marginBottom="@dimen/length_20"
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginRight="@dimen/length_20"
+            android:layout_marginTop="@dimen/length_10"
+            android:background="@drawable/send_again_style"
+            android:text="@string/sure"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_16" />
+    </RelativeLayout>
+</RelativeLayout>

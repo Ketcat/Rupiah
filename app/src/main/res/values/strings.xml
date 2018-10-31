@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">rupiah flash  </string>
+    <string name="FACEBOOK_APP_ID">495281924281198</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">72cef85a52a36b3fb958c6232a451014</string>
+    <string name="fb_login_protocol_scheme">fb768564213348389</string>
+
+
+    <string name="write_phone">输入您的手机号码</string>
+    <string name="login_details">点击&#34;下一步&#34;以验证您的帐户与 Facebook 提供的帐户工具包。你不需要一个 Facebook 帐户使用帐户套件。可以发送 SMS 来验证您的号码。可能会应用消息和数据速率。</string>
+    <string name="login_next">下一步</string>
+    <string name="verify_code">输入您的手机验证码</string>
+    <string name="register">注册</string>
+    <string name="no_git_code">没有收到验证码</string>
+    <string name="if_no_code">如果你还没有得到验证码：</string>
+    <string name="sure_number">确认您的手机号是否正确</string>
+    <string name="check_messages">检查您的短信消息</string>
+    <string name="send_again">再次发送验证码</string>
+    <string name="other_get_code">获取验证码的其他方式:</string>
+    <string name="facebook_code">Facebook获取验证码</string>
+    <string name="send_facebook">验证码将发送到Facebook，请查收</string>
+    <string name="call_code">语音电话获取验证码</string>
+    <string name="register_success">注册成功</string>
+    <string name="click_agin_out">再按一次退出程序</string>
+    <string name="call_get_code">在语音呼叫中获取您的验证码</string>
+    <string name="register_details">点击继续接受 facebook 条款, cookie 政策, 数据使用和盾的隐私政策是容易的</string>
+    <!--贷款页面-->
+    <string name="load">Saya</string>
+    <string name="certification">Sertifikasi</string>
+    <string name="mine">Pinjaman</string>
+    <string name="loan_my_money">Silahkan pilih jumlah pinjaman</string>
+    <string name="my_loan_money">Jumlah Pelunasan</string>
+    <string name="loan_my_data">Silahkan pilih jangka waktu pinjaman</string>
+    <string name="sure_loan">Pinjaman Saat Ini</string>
+    <string name="detail_data7">7hari</string>
+    <string name="detail_data14">14hari</string>
+    <string name="detail_data21">21hari</string>
+    <string name="loan_title">rupiah flash  </string>
+    <string name="see_type">Lihat Cara Pengembalian Pinjaman</string>
+    <string name="detail_number6">Rp 600,000.00</string>
+    <string name="detail_number10">Rp 1,000,000.00</string>
+    <string name="loan_details">Hanya dengan 4 langkah.Pinjaman paling cepat dalam
+20menit</string>
+    <string name="loan_info">Informasi pinjaman</string>
+    <string name="loan_order_number">Nomor urut pinjaman：</string>
+    <string name="id_code">Nomor ID：</string>
+    <string name="submit_time">Kirim informasi waktu：</string>
+    <string name="loan_number">Jumlah pinjaman：</string>
+    <string name="loan_time">Jangka waktu pinjaman：</string>
+    <string name="loan_cost">Biaya pinjaman：</string>
+    <string name="loan_pay_number">Jumlah pembayaran kembali：</string>
+    <string name="bank_name">Nama bank：</string>
+    <string name="bank_code">Nomor rekening bank :</string>
+    <string name="audit_time">Waktu audit</string>
+    <string name="no_loan_info">Tidak ada riwayat transaksi</string>
+    <string name="submit_time_loan_order">Waktu pengiriman</string>
+    <string name="order_success_details">Pinjaman pertama Anda telah berhasil, harap buka ponsel Anda</string>
+    <!--贷款信息列表-->
+    <string name="loan_list_name">Pinjaman Saya</string>
+    <!--担保协议-->
+    <string name="opinion_info">Kebijaksanaan Privasi Rupiaheasy
+Kebijaksaan kami terhadap pengumpulanformasi dan pembagian informasi customer
+yang bagaimana, berikut penjelasan prosesnya
+1. Informasi yang seperti apa yang perludikumpulkan?
+Informasi peminjam. Ketika customermelakukan pendaftaran diperlukan informasi
+identitas customer(KTP), informasi
+pekerjaannya, orang terdekat yang dapatdihubungi dalam situasi darurat dan lainnya
+Informasi komunikasi Riwayat panggilan,sms, kontak dan lainnya
+Informasi fasilitas IMEL, GPS, ISP, IP, ponsel
+id, nomor ponsel customer dan lainnyaInformasi lainnya. Kecelakaan penggunaaan
+aplikasi, katalog informasi pelanggan yangdibutuhkan untuk menginstall aplikasi danainnya.
+2. Bagaimana menggunakan informasi
+customer?
+Informasi peminjam Customer akan mengisi
+beberapa informasi yang harus dilengkapi</string>
+    <!--我的页面-->
+    <string name="mine_exit">Log out</string>
+    <string name="mine_login">Log in</string>
+    <string name="friends">Undang Teman</string>
+    <string name="coupons">Kupon</string>
+    <string name="integral">Integral</string>
+    <string name="mine_loan">Pinjaman Saya</string>
+    <string name="help_center">Pusat Bantuan</string>
+    <string name="about_us">Tentang rupiah flash  </string>
+    <string name="privacy">Kebijakan Privasi</string>
+    <string name="contact_us">Hotline Layanan Pelanggan</string>
+    <string name="online">Umpan balik</string>
+    <string name="call_phone_number">Mengkonfirmasi panggilan
+6281311993795</string>
+    <string name="cancel">Batal</string>
+    <string name="sure">Konfirmasi</string>
+    <string name="sign_out">Pembatalan</string>
+    <string name="submit">Kirim</string>
+    <string name="you_phone_number">Nomor ponsel Anda</string>
+    <string name="thanks_you">Terima kasih atas dukungan Anda, komentar
+Anda yang berharga akan menginspirasi kami
+untuk terus bergerak maju, terima kasih! ！</string>
+    <string name="loan_agreement">Perjanjian Penjaminan Pinjaman</string>
+    <string name="privacy_policy">Kebijakan Privas</string>
+    <string name="are_you_sure">Apakah Anda yakin Anda
+ingin keluar？</string>
+    <string name="you_mast_open_call_permission">Anda harus mengizinkan izin telepon untuk membuat panggilan secara langsung</string>
+    <string name="about_us_details">HHC merupakan sebuah online platform yang membantu mempertemukan antara investor dengan pihak peminjam, membuat nilai investasilebih tinggi dan kreditlebih terjangkau. lnvestor Dapatkan keuntungan yang besar melalui pembelian hak kreditor(klaim). Dengan menggunakan pin」aman Peminjam menyiapkan dana belanja pokok untuk meningkatkan kehidupan,tempat tinggal danlain-lainnya. HHCtelah membangun online platform untuk menyediakanlayanan online investasi juga pinjaman dana.</string>
+    <!--认证-->
+    <string name="data_info">Integritas data：</string>
+    <string name="personal_info">Informasi pribadi</string>
+    <string name="contact_info">Informasi Kontak</string>
+    <string name="identify_info">Informasi Identitas</string>
+    <string name="industry_info">Informasi Industri</string>
+    <string name="identify_code">Nomor ID</string>
+    <string name="sex_check">Jenis kelamin</string>
+    <string name="all_name">Nama</string>
+    <string name="female">Perempuan</string>
+    <string name="male">Laki Laki</string>
+    <string name="send_identify">Kirim</string>
+    <string name="personal_details">Pastikan foto ID Anda harus otentik dan jelas</string>
+    <string name="add_identify_code">Harap tambahkan ID Anda</string>
+    <string name="submit_identify">Meng-upload informasi ID</string>
+    <string name="submit_family">Kartu Keluarga </string>
+    <string name="personal_write_all_info">Mengisi informasi yang lengkap akan membantu\n
+mempercepat proses peninjauan dan menyediakan Anda\n
+dengan akses ke tendering platform</string>
+    <string name="face_details">Foto yang Anda unggah harus cocok dengan foto di kartu ID Anda</string>
+    <string name="face_prompt">Di bingkai foto, wajah terlihat jelas</string>
+    <string name="face_nearly">Wajah terlalu dekat</string>
+    <string name="face_far">Wajah terlalu jauh</string>
+    <string name="light_bright">Cahaya terlalu terang</string>
+    <string name="error_one">Jangan menutupi\n KTp dengan jari\n Anda</string>
+    <string name="error_three">Hindari pantulan\n cahaya</string>
+    <string name="error_two">Menyesuaikan\n posisi ID di kotak\n visual</string>
+    <string name="standard_case">Casing standar</string>
+    <string name="error_case">Kasus yang salah</string>
+
+    <!--识别信息-->
+    <string name="mother_name">Nama ibu kandung</string>
+    <string name="edu_grade">Tingkat pendidikan</string>
+    <string name="marital_status">Status perkawinan</string>
+    <string name="sun_number">Jumlah anak</string>
+    <string name="contact_address">Alamat kontak</string>
+    <string name="address_details">Rincian alamat</string>
+    <string name="check_in_time">Lama tinggal</string>
+    <!--联系人信息-->
+    <string name="call_phone">Telepon</string>
+    <string name="user_name">Nona Liu</string>
+    <string name="parents">Keluarga Kandung</string>
+    <string name="brother">Saudara/saudara/sahabat</string>
+    <string name="spouse">Nama Pasangan (jika sudah menikah)</string>
+    <!--行业信息-->
+    <string name="work_type">Jenis pekerjaan</string>
+    <string name="every_month_income">Pendapatan bulanan</string>
+    <string name="company_name">Nama perusahaan</string>
+    <string name="company_address">Alamat perusahaan</string>
+    <string name="company_address_details">Rincian alamat</string>
+    <string name="company_phone">Telepon perusahaan</string>
+    <string name="up_work_certificate">Meng-upload sertifikat pekerjaan Anda</string>
+    <string name="check_type">Pilih salah satu pilihan berikut untuk meng-upload:
+bekerja izin, penggajian, SIM, perusahaan foto</string>
+    <string name="other">Informasi lainnya</string>
+    <string name="other_details">Semakin banyak dan lengkap dokumen yang Anda beri ( ex: BPJS, NPWP, SIM dll) , semakin mudah dan cepat proses pencairan dana.</string>
+    <string name="work_dialog">Foto-foto kerja berseragam atau identifikasi bersama para pekerja \ n
+Foto harus jelas</string>
+
+    <!--test-->
+    <string name="camera_name">BATAL</string>
+    <string name="loan_chanel">Anda dapat mengembalikan pinjaman dengan cara
+berikut：</string>
+    <string name="chanel_details">Transaksi ini dapat dilakukan melalui seluruh bank dan
+Alfamart</string>
+    <string name="type1">Internet Banking</string>
+    <string name="type2">ATM</string>
+    <string name="type3">Mobile Banking</string>
+    <string name="type4">AIfarmart Pay</string>
+    <string name="chanel">Cara Mengembalikan Pinjaman</string>
+    <string name="loancontract">Kontrak pinjaman</string>
+    <string name="go_now">coba sekarang</string>
+
+    <string name="loan_detail_submit">Berlaku untuk pembayaran</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="district">District</string>
+    <string name="province">Province</string>
+    <string name="pem">Pembayaran</string>
+    <string name="no_all_info">Harap isi informasi lengkapnya</string>
+    <string name="replace_success">Berhasil dimodifikasi</string>
+    <string name="permission_fail">Gagal mendapatkan izin kamera</string>
+    <string name="network_fail">Pengenalan wajah jaringan gagal</string>
+    <string name="face_fail">Pengenalan wajah gagal</string>
+    <string name="login_yes">Login berhasil</string>
+    <string name="login_no">Login gagal</string>
+    <string name="agree_condition">Silakan periksa opsi klausul persetujuan</string>
+    <string name="complete_info">Harap isi informasi lengkapnya</string>
+    <string name="no_card">Tidak ada kartu memori yang terdeteksi</string>
+    <string name="logout_fail">Gagal keluar</string>
+    <string name="coupon">Kupon</string>
+    <string name="loanAgreement">《Perjanjian Pinjaman》</string>
+    <string name="agree_cash">Setujui persyaratan pinjaman tunai</string>
+    <string name="forLoan">Untuk pinjaman</string>
+    <string name="paymentAmount">Jumlah pembayaran</string>
+    <string name="loanPeriod">Jangka waktu pinjaman</string>
+    <string name="loanAmount">Jumlah pinjaman</string>
+    <!--利息-->
+    <string name="interest">Bunga</string>
+    <!--服务税-->
+    <string name="serviceTax">Biaya layanan</string>
+    <!--实际到账-->
+    <string name="actualrrival">Kedatangan yang sebenarnya</string>
+    <string name="no_permission">Membaca SMS atau membaca hak kontak dilarang</string>
+
+    <string name="pay_loan1">Pinjaman informasi</string>
+    <string name="pay_loan2">ID App Pinjaman:</string>
+    <string name="pay_loan3">Pembayaran tertunda</string>
+    <string name="pay_loan4">Istilah pinjaman:</string>
+    <string name="pay_loan5">Pinjaman waktu:</string>
+    <string name="pay_loan6">Jumlah Pelunasan:</string>
+    <string name="pay_loan7">Jumlah dikembalikan</string>
+    <string name="pay_loan8">Metode pembayaran</string>
+    <string name="pay_loan9">Nomor ponsel</string>
+    <string name="pay_loan0">Konfirmasi pembayaran</string>
+    <string name="pay_loan01">Rincian pembayaran</string>
+    <string name="pay_loan02">Pembayaran ID:</string>
+    <string name="pay_loan03">Status pembayaran:</string>
+    <string name="pay_loan04">Tabel angsuran：</string>
+    <string name="pay_loan05">Jenis mata uang：</string>
+    <string name="pay_loan06">Metode pembayaran：</string>
+    <string name="pay_loan07">Nomor ponsel：</string>
+    <string name="pay_loan08">Bank Pembayaran：</string>
+    <string name="pay_loan09">Kode pembayaran：</string>
+    <string name="pay_loan00">Kode berlaku sampai 6 jam kedepan. </string>
+    <string name="update_title">Perbarui deteksi</string>
+    <string name="have_update">Apakah Anda mendeteksi jika versi baru telah ditingkatkan ke versi baru?</string>
+    <string name="update">Perbarui</string>
+    <string name="main_add">Maaf, kami tidak dapat beroperasi pada akhir pekan,\n
+silahkan kembali mengajukan pinjaman di hari Senin. </string>
+    <string name="social_name">Jenis jejaring</string>
+    <string name="social_id">ID akun jejaring sosial</string>
+    <string name="login_fail">Silakan masuk dulu</string>
+    <string name="skip_title">Deteksi pinjaman</string>
+    <string name="skip_details">Pinjaman Anda sedang dalam proses, harap lengkapi informasi kartu bank dan lakukan pengajuan kembali.</string>
+</resources>

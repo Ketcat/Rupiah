@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_color"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.PayLoanActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_pay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_marginRight="@dimen/length_20"
+                    android:layout_marginTop="@dimen/length_20"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_20"
+                        android:text="@string/pay_loan1"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/size_16" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan2"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/tv_pay_order_code"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan3"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_money_pay"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan4"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/tv_loan_time_pay"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan5"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/tv_pay_date"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan6"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/tv_paying_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_45"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_marginRight="@dimen/length_20"
+                    android:layout_marginTop="@dimen/length_10"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pay_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:text="@string/pay_loan7"
+                        android:textColor="@color/center_grey"
+                        android:textSize="@dimen/size_15" />
+
+                    <EditText
+                        android:id="@+id/et_pay_money"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/length_10"
+                        android:layout_toRightOf="@+id/tv_pay_money"
+                        android:background="@null"
+                        android:inputType="numberDecimal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_pay_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/length_45"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_marginRight="@dimen/length_20"
+                    android:layout_marginTop="@dimen/length_10"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pay_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:text="@string/pay_loan8"
+                        android:textColor="@color/center_grey"
+                        android:textSize="@dimen/size_15" />
+
+                    <TextView
+                        android:id="@+id/pay_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/length_10"
+                        android:layout_toLeftOf="@+id/down_pay"
+                        android:text="@string/type2"
+                        android:textColor="@color/light_grey"
+                        android:textSize="@dimen/size_15" />
+
+                    <ImageView
+                        android:id="@+id/down_pay"
+                        android:layout_width="@dimen/length_12"
+                        android:layout_height="@dimen/length_21"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/length_10"
+                        android:src="@mipmap/check_down" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pay_loan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/length_45"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:background="@color/white"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_phone_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/length_20"
+                            android:text="@string/pay_loan9"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_15" />
+
+                        <EditText
+                            android:id="@+id/et_pay_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/length_10"
+                            android:layout_toRightOf="@+id/tv_phone_code"
+                            android:background="@null"
+                            android:inputType="number" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_pay_bank"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/length_45"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:background="@color/white"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/ty_bank_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/length_20"
+                            android:text="@string/pay_loan8"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_15" />
+
+                        <TextView
+                            android:id="@+id/bank_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/length_10"
+                            android:layout_toLeftOf="@+id/down_bank"
+                            android:text="PERMATA"
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_15" />
+
+                        <ImageView
+                            android:id="@+id/down_bank"
+                            android:layout_width="@dimen/length_12"
+                            android:layout_height="@dimen/length_21"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/length_10"
+                            android:src="@mipmap/check_down" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/bt_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/length_22"
+                        android:layout_marginRight="@dimen/length_22"
+                        android:layout_marginTop="@dimen/length_20"
+                        android:background="@drawable/send_again_style"
+                        android:text="@string/pay_loan0"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_15"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--请求还款接口后返回的信息显示在上面-->
+            <LinearLayout
+                android:id="@+id/ll_pay_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_marginRight="@dimen/length_20"
+                    android:layout_marginTop="@dimen/length_20"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_20"
+                        android:text="@string/pay_loan01"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/size_16" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan02"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan03"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_status"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan04"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_money"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan05"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_mata"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan06"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_type"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan07"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan08"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/length_20"
+                        android:layout_marginLeft="@dimen/length_20"
+                        android:layout_marginRight="@dimen/length_20"
+                        android:layout_marginTop="@dimen/length_10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/pay_loan09"
+                            android:textColor="@color/center_grey"
+                            android:textSize="@dimen/size_13" />
+
+                        <TextView
+                            android:id="@+id/pay_info_bank_code"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="@color/light_grey"
+                            android:textSize="@dimen/size_13" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/length_20"
+                    android:layout_marginTop="@dimen/length_10"
+                    android:text="@string/pay_loan00"
+                    android:textColor="@color/grey_bb" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

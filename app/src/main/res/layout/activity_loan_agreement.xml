@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.LoanAgreementActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_20"
+        android:layout_marginRight="@dimen/length_20"
+        android:layout_marginTop="@dimen/length_28"
+        android:lineSpacingExtra="@dimen/length_10"
+        android:text="@string/opinion_info"
+        android:textColor="@color/center_grey"
+        android:textSize="@dimen/size_14" />
+</LinearLayout>

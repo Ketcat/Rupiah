@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomTab" parent="Widget.Design.TabLayout" >
+        <item name="tabTextColor">@color/tab_text</item>
+        <item name="tabSelectedTextColor">@color/green</item>
+        <item name="tabBackground">@color/tab_bgs</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+    <style name="loading_dialog" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!--弹出框时让背景变暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+    <!--<style name="MyAccountKitTheme" parent="Theme.AccountKit">-->
+        <!--&lt;!&ndash;UI 的背景颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_background_color">@color/white</item>-->
+        <!--&lt;!&ndash;文本的主要颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_primary_text_color">@color/dark_grey</item>-->
+        <!--&lt;!&ndash;按钮的背景颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_button_background_color">@color/green</item>-->
+        <!--&lt;!&ndash;按钮无效时的背景颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_button_disabled_background_color">@color/light_grey</item>-->
+        <!--&lt;!&ndash;按钮无效时的文本颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_button_disabled_text_color">@color/white</item>-->
+        <!--&lt;!&ndash;默认状态下按钮文本的颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_button_text_color">@color/white</item>-->
+        <!--<item name="com_accountkit_button_pressed_text_color">@color/white</item>-->
+        <!--&lt;!&ndash;输入选择工具的颜色，例如选择国家/地区代码的下拉菜单&ndash;&gt;-->
+        <!--<item name="com_accountkit_input_accent_color">@color/green</item>-->
+        <!--&lt;!&ndash;手机号码和验证码输入框的文本颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_input_text_color">@color/green</item>-->
+        <!--&lt;!&ndash;设置输入框文本和法律文本的颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_secondary_text_color">@color/green</item>-->
+        <!--&lt;!&ndash;输入框的背景颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_secondary_color">@color/colorPrimary</item>-->
+        <!--&lt;!&ndash;按钮处于按下状态时的背景颜色&ndash;&gt;-->
+        <!--<item name="com_accountkit_button_pressed_background_color">@color/center_grey</item>-->
+    <!--</style>-->
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_bg</item>
+    </style>
+</resources>
+
+
+
+

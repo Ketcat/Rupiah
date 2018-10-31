@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义验证码输入框-->
+    <declare-styleable name="IdentifyingCodeView">
+        <!--输入框的数量-->
+        <attr name="icv_et_number" format="integer" />
+        <!--输入框的宽度-->
+        <attr name="icv_et_width" format="dimension|reference" />
+        <!--输入框之间的分割线-->
+        <attr name="icv_et_divider_drawable" format="reference" />
+        <!--输入框文字颜色-->
+        <attr name="icv_et_text_color" format="color|reference" />
+        <!--输入框文字大小-->
+        <attr name="icv_et_text_size" format="dimension|reference" />
+        <!--输入框获取焦点时边框-->
+        <attr name="icv_et_bg_focus" format="reference" />
+        <!--输入框没有焦点时边框-->
+        <attr name="icv_et_bg_normal" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="verticaltextview">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textSize" format="reference|dimension" />
+        <attr name="direction">
+            <enum name="uptodown" value="0" />
+            <enum name="downtoup" value="1" />
+        </attr>
+    </declare-styleable>
+    <string-array name="child_number_value">
+        <item>ZERO</item>
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>OVER_FOUR</item>
+    </string-array>
+    <string-array name="child_number">
+        <item>NIHIL</item>
+        <item>SATU</item>
+        <item>DUA</item>
+        <item>TIGA</item>
+        <item>EMPAT</item>
+        <item>DI_ATAS_EMPAT</item>
+    </string-array>
+    <string-array name="time_value">
+        <item>THREE_MONTH</item>
+        <item>SIX_MONTH</item>
+        <item>ONE_YEAR</item>
+        <item>TWO_YEAR</item>
+        <item>OVER_TWO_YEAR</item>
+    </string-array>
+    <string-array name="time">
+        <item>TIGA_BULAN</item>
+        <item>ENAM_BULAN</item>
+        <item>SATU_TAHUN</item>
+        <item>DUA_TAHUN</item>
+        <item>DI_ATAS_DUA_TAHUN</item>
+    </string-array>
+    <string-array name="marry_list">
+        <item>Menikah</item>
+        <item>Lajang</item>
+        <item>Cerai</item>
+        <item>Janda</item>
+    </string-array>
+    <string-array name="marry_state">
+        <item>MARRIED</item>
+        <item>SINGLE</item>
+        <item>DIVORCED</item>
+        <item>WIDOWED</item>
+    </string-array>
+    <string-array name="edu">
+        <item>DIPLOMA_I</item>
+        <item>DIPLOMA_II</item>
+        <item>DIPLOMA_III</item>
+        <item>SD</item>
+        <item>SLTP</item>
+        <item>SLTA</item>
+        <item>S1"</item>
+        <item>S2"</item>
+        <item>S3"</item>
+    </string-array>
+    <string-array name="salary_value">
+        <item>BELOW_2M</item>
+        <item>BETWEEN_2M_4M</item>
+        <item>BETWEEN_4M_8M</item>
+        <item>OVER_8M</item>
+    </string-array>
+    <string-array name="salary">
+        <item>≥2.000.000</item>
+        <item>2.000.000-4.000.000</item>
+        <item>4.000.000-8.000.000</item>
+        <item>≤8.000.000</item>
+    </string-array>
+    <string-array name="work_type_yy">
+        <item>ACCOUNTING</item>
+        <item>WAITER</item>
+        <item>ENGINEER</item>
+        <item>EXECUTIVE</item>
+        <item>INFORMATION_TECHNOLOGY</item>
+        <item>CONSULTANT</item>
+        <item>MARKETING</item>
+        <item>TEACHER</item>
+        <item>MILITARY</item>
+        <item>RETIRED</item>
+        <item>STUDENT</item>
+        <item>ENTREPRENEUR</item>
+        <item>POLICE</item>
+        <item>FARMER</item>
+        <item>FISHERMAN</item>
+        <item>BREEDER</item>
+        <item>DOCTOR</item>
+        <item>MEDICAL_PERSONNEL</item>
+        <item>LAWYER</item>
+        <item>CHEF</item>
+        <item>RESEARCHER</item>
+        <item>DESIGNER</item>
+        <item>ARCHITECT</item>
+        <item>WORKERS_ART</item>
+        <item>SECURITY</item>
+        <item>BROKER</item>
+        <item>DISTRIBUTOR</item>
+        <item>AIR_TRANSPORTATION</item>
+        <item>SEA_TRANSPORTATION</item>
+        <item>LAND_TRANSPORTATION</item>
+        <item>LABOR</item>
+        <item>CRAFTSMAN</item>
+        <item>HOUSEWIFE</item>
+        <item>INFORMAL_WORKERS</item>
+        <item>STATE_OFFICIALS</item>
+        <item>GOVERNMENT_EMPLOYEE</item>
+        <item>GENERAL_ADMINISTRATION</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="work_type_yn">
+        <item>AKUNTING</item>
+        <item>PELAYAN</item>
+        <item>INSINYUR</item>
+        <item>EKSEKUTIF</item>
+        <item>TEKNOLOGI_INFORMASI</item>
+        <item>KONSULTAN</item>
+        <item>MARKETING</item>
+        <item>GURU</item>
+        <item>MILITER</item>
+        <item>PENSIUNAN</item>
+        <item>PELAJAR</item>
+        <item>WIRASWASTA</item>
+        <item>POLISI</item>
+        <item>PETANI</item>
+        <item>NELAYAN</item>
+        <item>PETERNAK</item>
+        <item>DOKTER</item>
+        <item>TENAGA_MEDIS</item>
+        <item>PENGACARA</item>
+        <item>KOKI</item>
+        <item>PENELITI</item>
+        <item>DESAINER</item>
+        <item>ARSITEK</item>
+        <item>PEKERJA_SENI</item>
+        <item>PENGAMANAN</item>
+        <item>PIALANG</item>
+        <item>DISTRIBUTOR</item>
+        <item>TRANSPORTASI_UDARA</item>
+        <item>RANSPORTASI_LAUT</item>
+        <item>TRANSPORTASI_DARAT</item>
+        <item>BURUH</item>
+        <item>PERTUKANGAN</item>
+        <item>IBU_RUMAH_TANGGA</item>
+        <item>PEKERJA_INFORMAL</item>
+        <item>PEJABAT_NEGARA</item>
+        <item>PEGAWAI_PEMERINTAHAN</item>
+        <item>administrasi</item>
+        <item>LAINNYA</item>
+    </string-array>
+    <!-- 申请进度的自定义view-->
+    <declare-styleable name="AuditProgressView">
+        <!--当前步骤是否完成 -->
+        <attr name="apv_isCurrentComplete" format="boolean" />
+        <!--下一个步骤是否完成 -->
+        <attr name="apv_isNextComplete" format="boolean" />
+        <!--是不是第一个步骤 -->
+        <attr name="apv_isFirstStep" format="boolean" />
+        <!--是不是最后一个步骤 -->
+        <attr name="apv_isLastStep" format="boolean" />
+        <!--共有几个步骤 -->
+        <attr name="apv_stepCount" format="integer" />
+        <!--步骤提示 -->
+        <attr name="apv_text" format="string|reference" />
+    </declare-styleable>
+    <string-array name="detail">
+        <item>KTP：</item>
+        <item>Waktu Pengajuan：</item>
+        <item>Jumlah Pinjaman：</item>
+        <item>Tenggat Pinjaman：</item>
+        <item>Bunga：</item>
+        <item>Penalti bunga：</item>
+        <item>Jumlah Pelunasan：</item>
+        <item>Metode pembayaran：</item>
+        <item>Nama Bank Penerima：</item>
+        <item>No Kartu Akun Bank:</item>
+    </string-array>
+    <string-array name="socialNames">
+        <item>Facebook</item>
+        <item>Instagram</item>
+    </string-array>
+</resources>

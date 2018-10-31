@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_time_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_20"
+                android:layout_marginTop="@dimen/length_20"
+                android:text="2018-05-22" />
+
+            <TextView
+                android:id="@+id/tv_order_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/length_20"
+                android:layout_marginTop="@dimen/length_20"
+                android:text="198560" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/length_20"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Pinjaman"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/length_30"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_15" />
+                <TextView
+                    android:id="@+id/tv_value1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name1"
+                    android:text="Rp.1.000.000,00"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="@dimen/length_20"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jatuh Tempo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/length_30"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_15" />
+                <TextView
+                    android:id="@+id/tv_value2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name2"
+                    android:text="7hari"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="@dimen/length_20"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/length_30"
+                    android:textColor="@color/light_grey"
+                    android:textSize="@dimen/size_15" />
+                <TextView
+                    android:id="@+id/tv_value3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name3"
+                    android:text="BATAL"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/dark_grey"
+                    android:layout_marginTop="@dimen/length_20"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

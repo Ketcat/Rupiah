@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ptyl.uang.flash.activity.PrivacyActivity">
+    <include layout="@layout/activity_title"></include>
+    <RelativeLayout
+        android:id="@+id/rl_loan_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginTop="@dimen/length_20"
+            android:layout_marginBottom="@dimen/length_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_agreement"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_17"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginTop="@dimen/length_10"
+            android:layout_marginBottom="@dimen/length_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/center_grey"
+            android:textSize="@dimen/size_17"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1"
+        android:background="@color/line_color"
+        />
+</LinearLayout>

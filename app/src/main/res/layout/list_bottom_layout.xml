@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+
+    <RelativeLayout
+        android:layout_width="@dimen/length_40"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/length_10">
+
+        <TextView
+            android:id="@+id/bottom_text"
+            android:layout_width="@dimen/length_8"
+            android:layout_height="@dimen/length_8"
+            android:layout_centerInParent="true"
+            android:background="@drawable/top_shape" />
+
+        <TextView
+            android:layout_width="@dimen/length_3"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/bottom_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/length_5"
+            android:background="@color/dark_grey" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/length_15"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Tanggal pembayaran kembali："
+            android:layout_weight="1"
+            android:textSize="@dimen/size_13"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="_"
+            android:textSize="@dimen/size_13"
+            android:textColor="@color/dark_grey"
+            />
+    </LinearLayout>
+</LinearLayout>

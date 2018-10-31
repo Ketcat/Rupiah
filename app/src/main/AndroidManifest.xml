@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ptyl.uang.flash">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 向SD卡中创建或者删除的权限。 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:icon, android:theme">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<provider-->
+            <!--android:name="android.support.v4.content.FileProvider"-->
+            <!--android:authorities="com.lbz.myapp.fileprovider"-->
+            <!--android:exported="true"-->
+            <!--android:grantUriPermissions="true">-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/file_paths" />-->
+        <!--</provider>-->
+        <!-- facebook -->
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+            android:theme="@style/Theme.AccountKit"
+            tools:replace="android:theme" />
+        <activity
+            android:name=".activity.LoanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GuidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NoCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OpinionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PrivacyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoanAgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PersonalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ContactInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IndustryInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdentifyInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- Test -->
+        <activity
+            android:name=".activity.FaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test.FaceBookLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyCameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoanChannelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ProvinceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DistrictActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AreaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoanListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoanDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PayLoanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WebActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

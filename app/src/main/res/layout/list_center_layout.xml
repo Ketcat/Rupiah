@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/length_40"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/length_10">
+
+        <TextView
+            android:layout_width="@dimen/length_8"
+            android:layout_height="@dimen/length_8"
+            android:layout_centerInParent="true"
+            android:background="@drawable/top_shape" />
+
+        <TextView
+            android:layout_width="@dimen/length_3"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/dark_grey" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/length_15"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_center_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="ID App Pinjaman:"
+            android:textSize="@dimen/size_13"
+            android:layout_weight="1"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/tv_center_value"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="192037"
+            android:textSize="@dimen/size_13"
+            android:textColor="@color/dark_grey"
+            />
+    </LinearLayout>
+</LinearLayout>
