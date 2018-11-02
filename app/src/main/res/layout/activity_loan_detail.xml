@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.LoanDetailActivity">
+    tools:context="com.flash.rupiah.pro.activity.LoanDetailActivity">
 
     <include layout="@layout/activity_title" />
 
@@ -159,13 +159,13 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <com.ptyl.uang.flash.view.MyListView
+            <com.flash.rupiah.pro.view.MyListView
                 android:id="@+id/detail_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
                 android:divider="@null"
-                android:scrollbars="none"></com.ptyl.uang.flash.view.MyListView>
+                android:scrollbars="none"></com.flash.rupiah.pro.view.MyListView>
 
             <RelativeLayout
                 android:layout_width="match_parent"

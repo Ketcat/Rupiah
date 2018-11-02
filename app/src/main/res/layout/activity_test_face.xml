@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.FaceActivity">
+    tools:context="com.flash.rupiah.pro.activity.FaceActivity">
     <Button
         android:id="@+id/test"
         android:layout_width="wrap_content"

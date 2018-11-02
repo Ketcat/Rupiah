@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.NoCodeActivity">
+    tools:context="com.flash.rupiah.pro.activity.NoCodeActivity">
 
     <TextView
         android:id="@+id/verify_code_tv"

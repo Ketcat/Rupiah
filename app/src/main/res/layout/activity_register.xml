@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.RegisterActivity">
+    tools:context="com.flash.rupiah.pro.activity.RegisterActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:textSize="@dimen/size_15" />
     </RelativeLayout>
 
-    <com.ptyl.uang.flash.view.IdentifyingCodeView
+    <com.flash.rupiah.pro.view.IdentifyingCodeView
         android:id="@+id/view_icv"
         android:layout_width="match_parent"
         android:layout_height="@dimen/length_50"

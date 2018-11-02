@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.MainActivity">
+    tools:context="com.flash.rupiah.pro.MainActivity">
 
-    <com.ptyl.uang.flash.view.NoScrollViewPager
+    <com.flash.rupiah.pro.view.NoScrollViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"></com.ptyl.uang.flash.view.NoScrollViewPager>
+        android:layout_weight="1"></com.flash.rupiah.pro.view.NoScrollViewPager>
    <View
     android:layout_width="match_parent"
     android:layout_height="@dimen/length_1"

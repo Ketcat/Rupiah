@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.IdentifyInfoActivity">
+    tools:context="com.flash.rupiah.pro.activity.IdentifyInfoActivity">
 
     <include layout="@layout/activity_title"></include>
 

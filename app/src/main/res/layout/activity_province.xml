@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@color/line_color"
-    tools:context="com.ptyl.uang.flash.activity.ProvinceActivity">
+    tools:context="com.flash.rupiah.pro.activity.ProvinceActivity">
     <include layout="@layout/activity_title"></include>
     <ListView
         android:layout_width="match_parent"

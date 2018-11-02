@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/line_color"
     android:orientation="vertical"
-    tools:context="com.ptyl.uang.flash.activity.PayLoanActivity">
+    tools:context="com.flash.rupiah.pro.activity.PayLoanActivity">
 
     <include layout="@layout/activity_title" />
 

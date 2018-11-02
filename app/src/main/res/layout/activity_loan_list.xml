@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/line_color"
-    tools:context="com.ptyl.uang.flash.activity.LoanListActivity">
+    tools:context="com.flash.rupiah.pro.activity.LoanListActivity">
     <include layout="@layout/activity_title"/>
     <ListView
         android:id="@+id/loan_list"
