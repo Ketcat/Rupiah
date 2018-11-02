@@ -54,6 +54,6 @@ public class Contants {
     public static final String REPAYMENT = BASIC_URL + "/repayment.html";//  还款途径
     public static final String VERSION = BASIC_URL + "/version/latest";//  获取移动端版本号
     public static final String INFOCOLLECTION = BASIC_URL + "/trace/infoCollection";//  移动设备数据采集
-    public static final String UPDATEURL = "https://play.google.com/store/apps/details?id=com.ptyl.uang.flash";// 更新下载地址
+    public static final String UPDATEURL = "https://play.google.com/store/apps/details?id=com.flash.rupiah.pro";// 更新下载地址
     public static final String INTERGRAL =BASIC_URL+ "/record/integral";// 获取积分
 }
