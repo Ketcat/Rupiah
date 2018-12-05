@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.flash.rupiah.pro.activity.AboutUsActivity">
+    tools:context="com.rupiah.flash.pro.activity.AboutUsActivity">
     <include layout="@layout/activity_title"
         />
 

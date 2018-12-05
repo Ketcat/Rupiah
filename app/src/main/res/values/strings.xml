@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">flash rupiah pro</string>
+    <string name="app_name">rupiah flash pro</string>
     <string name="FACEBOOK_APP_ID">495281924281198</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">72cef85a52a36b3fb958c6232a451014</string>
     <string name="fb_login_protocol_scheme">fb768564213348389</string>
@@ -34,7 +34,7 @@
     <string name="detail_data7">7hari</string>
     <string name="detail_data14">14hari</string>
     <string name="detail_data21">21hari</string>
-    <string name="loan_title">flash rupiah pro  </string>
+    <string name="loan_title">rupiah flash pro  </string>
     <string name="see_type">Lihat Cara Pengembalian Pinjaman</string>
     <string name="detail_number6">Rp 600,000.00</string>
     <string name="detail_number10">Rp 1,000,000.00</string>
@@ -80,7 +80,7 @@ beberapa informasi yang harus dilengkapi</string>
     <string name="integral">Integral</string>
     <string name="mine_loan">Pinjaman Saya</string>
     <string name="help_center">Pusat Bantuan</string>
-    <string name="about_us">Tentang flash rupiah pro</string>
+    <string name="about_us">Tentang rupiah flash pro</string>
     <string name="privacy">Kebijakan Privasi</string>
     <string name="contact_us">Hotline Layanan Pelanggan</string>
     <string name="online">Umpan balik</string>

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/line_color"
     android:orientation="vertical"
-    tools:context="com.flash.rupiah.pro.fragment.CertificationFragment">
+    tools:context="com.rupiah.flash.pro.fragment.CertificationFragment">
 
     <include layout="@layout/activity_title"></include>
 

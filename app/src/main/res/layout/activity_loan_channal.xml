@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="7"
-    tools:context="com.flash.rupiah.pro.activity.LoanChannelActivity">
+    tools:context="com.rupiah.flash.pro.activity.LoanChannelActivity">
 
     <include layout="@layout/activity_title"></include>
 
