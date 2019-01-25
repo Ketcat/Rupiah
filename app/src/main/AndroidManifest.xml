@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rupiah.flash.pro">
+    package="com.rupiah.flash.pros">
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -40,7 +40,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:replace="android:icon, android:theme">
-        <activity android:name="com.rupiah.flash.pro.activity.WelcomeActivity">
+        <activity android:name="com.rupiah.flash.pros.activity.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -72,83 +72,83 @@
             android:theme="@style/Theme.AccountKit"
             tools:replace="android:theme" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.LoanActivity"
+            android:name="com.rupiah.flash.pros.activity.LoanActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.GuidActivity"
+            android:name="com.rupiah.flash.pros.activity.GuidActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.RegisterActivity"
+            android:name="com.rupiah.flash.pros.activity.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.NoCodeActivity"
+            android:name="com.rupiah.flash.pros.activity.NoCodeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.SuccessActivity"
+            android:name="com.rupiah.flash.pros.activity.SuccessActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.OpinionActivity"
+            android:name="com.rupiah.flash.pros.activity.OpinionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.PrivacyActivity"
+            android:name="com.rupiah.flash.pros.activity.PrivacyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.AboutUsActivity"
+            android:name="com.rupiah.flash.pros.activity.AboutUsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.LoanAgreementActivity"
+            android:name="com.rupiah.flash.pros.activity.LoanAgreementActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.PersonalActivity"
+            android:name="com.rupiah.flash.pros.activity.PersonalActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.ContactInfoActivity"
+            android:name="com.rupiah.flash.pros.activity.ContactInfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.IndustryInfoActivity"
+            android:name="com.rupiah.flash.pros.activity.IndustryInfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.IdentifyInfoActivity"
+            android:name="com.rupiah.flash.pros.activity.IdentifyInfoActivity"
             android:screenOrientation="portrait" />
         <!-- Test -->
         <activity
-            android:name="com.rupiah.flash.pro.activity.FaceActivity"
+            android:name="com.rupiah.flash.pros.activity.FaceActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.test.FaceBookLoginActivity"
+            android:name="com.rupiah.flash.pros.test.FaceBookLoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.MyCameraActivity"
+            android:name="com.rupiah.flash.pros.activity.MyCameraActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.LoanChannelActivity"
+            android:name="com.rupiah.flash.pros.activity.LoanChannelActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.ProvinceActivity"
+            android:name="com.rupiah.flash.pros.activity.ProvinceActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.CityActivity"
+            android:name="com.rupiah.flash.pros.activity.CityActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.DistrictActivity"
+            android:name="com.rupiah.flash.pros.activity.DistrictActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.AreaActivity"
+            android:name="com.rupiah.flash.pros.activity.AreaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.MainActivity"
+            android:name="com.rupiah.flash.pros.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.LoanListActivity"
+            android:name="com.rupiah.flash.pros.activity.LoanListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.LoanDetailActivity"
+            android:name="com.rupiah.flash.pros.activity.LoanDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.PayLoanActivity"
+            android:name="com.rupiah.flash.pros.activity.PayLoanActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rupiah.flash.pro.activity.WebActivity"
+            android:name="com.rupiah.flash.pros.activity.WebActivity"
             android:screenOrientation="portrait"/>
     </application>
 

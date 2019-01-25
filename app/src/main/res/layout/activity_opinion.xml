@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.rupiah.flash.pro.activity.OpinionActivity">
+    tools:context="com.rupiah.flash.pros.activity.OpinionActivity">
     <include layout="@layout/activity_title"/>
     <EditText
         android:id="@+id/et_opinion"

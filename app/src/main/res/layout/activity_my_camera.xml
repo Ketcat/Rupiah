@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rupiah.flash.pro.activity.MyCameraActivity">
+    tools:context="com.rupiah.flash.pros.activity.MyCameraActivity">
 
     <SurfaceView
         android:id="@+id/surfaceview"
@@ -35,7 +35,7 @@
                 android:layout_height="match_parent"
                 android:layout_toLeftOf="@+id/iv_camera_center">
 
-                <com.rupiah.flash.pro.view.VerticalTextView
+                <com.rupiah.flash.pros.view.VerticalTextView
                     xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

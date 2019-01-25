@@ -15,7 +15,7 @@ android {
         useNewCruncher = false
     }
     defaultConfig {
-        applicationId "com.rupiah.flash.pro"
+        applicationId "com.rupiah.flash.pros"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 2
